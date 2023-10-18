@@ -33,8 +33,7 @@
                                             class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link text-white fs-20" href="product.php" id="dropdownId"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MEN</a>
+                                    <a class="nav-link text-white fs-20" href="product.php">MEN</a>
                                     <div class="dropdown-menu m-w w-100" aria-labelledby="dropdownId">
                                         <ul class="row">
                                             <li class="dip-menu col-lg-3">
@@ -103,16 +102,16 @@
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link text-white fs-20 " href="product" id="dropdownId" data-toggle="dropdown"
-                                        aria-haspopup="true" aria-expanded="false">WOMEN</a>
+                                    <a class="nav-link text-white fs-20 " href="product" id="dropdownId"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">WOMEN</a>
                                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                                         <a class="dropdown-item" href="#">About</a>
                                         <a class="dropdown-item" href="#">Contact</a>
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link text-white fs-20" href="product" id="dropdownId" data-toggle="dropdown"
-                                        aria-haspopup="true" aria-expanded="false">CHILDREN</a>
+                                    <a class="nav-link text-white fs-20" href="product" id="dropdownId"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CHILDREN</a>
                                     <div class="dropdown-menu" aria-labelledby="dropdownId">
                                         <a class="dropdown-item" href="#">About</a>
                                         <a class="dropdown-item" href="#">Contact</a>
@@ -152,235 +151,398 @@
     </header>
     <div id="loading"></div>
 
-<div class="slider">
-    <div id="carouselId" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselId" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselId" data-slide-to="1"></li>
-            <li data-target="#carouselId" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-                <img src="./images/slider/1.jpg" alt="First slide" width="100%">
+    <div class="slider">
+        <div id="carouselId" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselId" data-slide-to="1"></li>
+                <li data-target="#carouselId" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="./images/slider/1.jpg" alt="First slide" width="100%">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/slider/2.jpg" alt="Second slide" width="100%">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/slider/3.jpg" alt="Third slide" width="100%">
+                </div>
             </div>
-            <div class="carousel-item">
-                <img src="./images/slider/2.jpg" alt="Second slide" width="100%">
-            </div>
-            <div class="carousel-item">
-                <img src="./images/slider/3.jpg" alt="Third slide" width="100%">
-            </div>
+            <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-        <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
-</div>
-<div class="dvh_qo mt-5">
-    <h1 class="text-center mb-4">MEN</h1>
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                <div class="card text-center">
-                    <div class="card-image">
-                        <img class="card-img-top" src="images/detail/1.jpg" alt="">
-                        <img class="card-img-top img-hide" src="images/detail/2.jpg" alt="">
-                    </div>
-                    <div class="card-body dvh_name">
-                        <h4 class="card-title">Cotton Jacquard Shorts</h4>
-                        <p class="card-text">Price: $816,04</p>
-                        <a href="" class="dvh_add btn-block">Add To Cart <i class="fa-solid fa-cart-plus"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                <div class="card text-center">
-                    <div class="card-image">
-                        <img class="card-img-top" src="images/detail/1.jpg" alt="">
-                        <img class="card-img-top img-hide" src="images/detail/2.jpg" alt="">
-                    </div>
-                    <div class="card-body dvh_name">
-                        <h4 class="card-title">Cotton Jacquard Shorts</h4>
-                        <p class="card-text">Price: $816,04</p>
-                        <a href="" class="dvh_add btn-block">Add To Cart <i class="fa-solid fa-cart-plus"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                <div class="card text-center">
-                    <div class="card-image">
-                        <img class="card-img-top" src="images/detail/1.jpg" alt="">
-                        <img class="card-img-top img-hide" src="images/detail/2.jpg" alt="">
-                    </div>
-                    <div class="card-body dvh_name">
-                        <h4 class="card-title">Cotton Jacquard Shorts</h4>
-                        <p class="card-text">Price: $816,04</p>
-                        <a href="" class="dvh_add btn-block">Add To Cart <i class="fa-solid fa-cart-plus"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                <div class="card text-center">
-                    <div class="card-image">
-                        <img class="card-img-top" src="images/detail/1.jpg" alt="">
-                        <img class="card-img-top img-hide" src="images/detail/2.jpg" alt="">
-                    </div>
-                    <div class="card-body dvh_name">
-                        <h4 class="card-title">Cotton Jacquard Shorts</h4>
-                        <p class="card-text">Price: $816,04</p>
-                        <a href="" class="dvh_add btn-block">Add To Cart <i class="fa-solid fa-cart-plus"></i></a>
-                    </div>
-                </div>
-            </div>
+    <div class="dvh_qo mt-5">
+        <h1 class="text-center mb-4">MEN</h1>
 
-        </div>
-    </div>
-</div>
-<div class="dvh_qo mt-5">
-    <h1 class="text-center mb-4">WOMEN</h1>
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                <div class="card text-center">
-                    <div class="card-image">
-                        <img class="card-img-top" src="images/detail/women/1.jpg" alt="">
-                        <img class="card-img-top img-hide" src="images/detail/women/2.jpg" alt="">
-                    </div>
-                    <div class="card-body dvh_name">
-                        <h4 class="card-title">Cotton Jacquard Shorts</h4>
-                        <p class="card-text">Price: $816,04</p>
-                        <a href="" class="dvh_add btn-block">Add To Cart <i class="fa-solid fa-cart-plus"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                <div class="card text-center">
-                    <div class="card-image">
-                        <img class="card-img-top" src="images/detail/women/1.jpg" alt="">
-                        <img class="card-img-top img-hide" src="images/detail/women/2.jpg" alt="">
-                    </div>
-                    <div class="card-body dvh_name">
-                        <h4 class="card-title">Cotton Jacquard Shorts</h4>
-                        <p class="card-text">Price: $816,04</p>
-                        <a href="" class="dvh_add btn-block">Add To Cart <i class="fa-solid fa-cart-plus"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                <div class="card text-center">
-                    <div class="card-image">
-                        <img class="card-img-top" src="images/detail/women/1.jpg" alt="">
-                        <img class="card-img-top img-hide" src="images/detail/women/2.jpg" alt="">
-                    </div>
-                    <div class="card-body dvh_name">
-                        <h4 class="card-title">Cotton Jacquard Shorts</h4>
-                        <p class="card-text">Price: $816,04</p>
-                        <a href="" class="dvh_add btn-block">Add To Cart <i class="fa-solid fa-cart-plus"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                <div class="card text-center">
-                    <div class="card-image">
-                        <img class="card-img-top" src="images/detail/women/1.jpg" alt="">
-                        <img class="card-img-top img-hide" src="images/detail/women/2.jpg" alt="">
-                    </div>
-                    <div class="card-body dvh_name">
-                        <h4 class="card-title">Cotton Jacquard Shorts</h4>
-                        <p class="card-text">Price: $816,04</p>
-                        <a href="" class="dvh_add btn-block">Add To Cart <i class="fa-solid fa-cart-plus"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="dvh_qo mt-5">
-    <h1 class="text-center mb-4">CHILDREN</h1>
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                <div class="card text-center">
-                    <div class="card-image">
-                        <img class="card-img-top" src="images/detail/children/1.jpg" alt="">
-                        <img class="card-img-top img-hide" src="images/detail/children/2.jpg" alt="">
-                    </div>
-                    <div class="card-body dvh_name">
-                        <h4 class="card-title">Cotton Jacquard Shorts</h4>
-                        <p class="card-text">Price: $816,04</p>
-                        <a href="" class="dvh_add btn-block">Add To Cart <i class="fa-solid fa-cart-plus"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                <div class="card text-center">
-                    <div class="card-image">
-                        <img class="card-img-top" src="images/detail/children/1.jpg" alt="">
-                        <img class="card-img-top img-hide" src="images/detail/children/2.jpg" alt="">
-                    </div>
-                    <div class="card-body dvh_name">
-                        <h4 class="card-title">Cotton Jacquard Shorts</h4>
-                        <p class="card-text">Price: $816,04</p>
-                        <a href="" class="dvh_add btn-block">Add To Cart <i class="fa-solid fa-cart-plus"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                <div class="card text-center">
-                    <div class="card-image">
-                        <img class="card-img-top" src="images/detail/children/1.jpg" alt="">
-                        <img class="card-img-top img-hide" src="images/detail/children/2.jpg" alt="">
-                    </div>
-                    <div class="card-body dvh_name">
-                        <h4 class="card-title">Cotton Jacquard Shorts</h4>
-                        <p class="card-text">Price: $816,04</p>
-                        <a href="" class="dvh_add btn-block">Add To Cart <i class="fa-solid fa-cart-plus"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                <div class="card text-center">
-                    <div class="card-image">
-                        <img class="card-img-top" src="images/detail/children/1.jpg" alt="">
-                        <img class="card-img-top img-hide" src="images/detail/children/2.jpg" alt="">
-                    </div>
-                    <div class="card-body dvh_name">
-                        <h4 class="card-title">Cotton Jacquard Shorts</h4>
-                        <p class="card-text">Price: $816,04</p>
-                        <a href="" class="dvh_add btn-block">Add To Cart <i class="fa-solid fa-cart-plus"></i></a>
-                    </div>
-                </div>
-            </div>
+		<div class="container">
+            <div class="row">
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <div class="el-wrapper">
+                        <div class="box-up">
+                            <img class="img" src="images/detail/1.jpg" alt="">
+                            <div class="img-info">
+                                <div class="info-inner">
+                                    <span class="p-name">I feel like Pablo</span>
+                                </div>
+                                <div class="a-size">Sizes : <span class="size-hdv">S , M , L , XL , XXL</span></div>
+                            </div>
+                        </div>
 
+                        <div class="box-down">
+                            <div class="h-bg">
+                                <div class="h-bg-inner"></div>
+                            </div>
+
+                            <a class="cart-hdv" href="product.php">
+                                <span class="price-hdv">$120</span>
+                                <span class="add-to-cart-hdv">
+                                    <span class="txt-hdv">Add in cart</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <div class="el-wrapper">
+                        <div class="box-up">
+                            <img class="img" src="images/detail/1.jpg" alt="">
+                            <div class="img-info">
+                                <div class="info-inner">
+                                    <span class="p-name">I feel like Pablo</span>
+                                </div>
+                                <div class="a-size">Sizes : <span class="size-hdv">S , M , L , XL , XXL</span></div>
+                            </div>
+                        </div>
+
+                        <div class="box-down">
+                            <div class="h-bg">
+                                <div class="h-bg-inner"></div>
+                            </div>
+
+                            <a class="cart-hdv" href="product.php">
+                                <span class="price-hdv">$120</span>
+                                <span class="add-to-cart-hdv">
+                                    <span class="txt-hdv">Add in cart</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <div class="el-wrapper">
+                        <div class="box-up">
+                            <img class="img" src="images/detail/1.jpg" alt="">
+                            <div class="img-info">
+                                <div class="info-inner">
+                                    <span class="p-name">I feel like Pablo</span>
+                                </div>
+                                <div class="a-size">Sizes : <span class="size-hdv">S , M , L , XL , XXL</span></div>
+                            </div>
+                        </div>
+
+                        <div class="box-down">
+                            <div class="h-bg">
+                                <div class="h-bg-inner"></div>
+                            </div>
+
+                            <a class="cart-hdv" href="product.php">
+                                <span class="price-hdv">$120</span>
+                                <span class="add-to-cart-hdv">
+                                    <span class="txt-hdv">Add in cart</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <div class="el-wrapper">
+                        <div class="box-up">
+                            <img class="img" src="images/detail/1.jpg" alt="">
+                            <div class="img-info">
+                                <div class="info-inner">
+                                    <span class="p-name">I feel like Pablo</span>
+                                </div>
+                                <div class="a-size">Sizes : <span class="size-hdv">S , M , L , XL , XXL</span></div>
+                            </div>
+                        </div>
+
+                        <div class="box-down">
+                            <div class="h-bg">
+                                <div class="h-bg-inner"></div>
+                            </div>
+
+                            <a class="cart-hdv" href="product.php">
+                                <span class="price-hdv">$120</span>
+                                <span class="add-to-cart-hdv">
+                                    <span class="txt-hdv">Add in cart</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-
-<footer class="mt-5">
+    <div class="dvh_qo mt-5">
+        <h1 class="text-center mb-4">WOMEN</h1>
         <div class="container">
             <div class="row">
                 <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                    <div class="logo mt-5">
-                        <a href=""><img src="images/logo/logo2.png" alt="" style="width:50px; "></a>
-                    </div>
-                    <div class="footer-text">
-                        <p style="color:#fff;">
-                        Sign up below for updates about the world of Burberry, including collection launches and early access to limited-edition products and collaborations.</p>
-                        <input type="email" name="email" id="">
-                    </div>
-                </div>
-                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                    
-                </div>
-                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <div class="el-wrapper">
+                        <div class="box-up">
+                            <img class="img" src="images/detail/1.jpg" alt="">
+                            <div class="img-info">
+                                <div class="info-inner">
+                                    <span class="p-name">I feel like Pablo</span>
+                                </div>
+                                <div class="a-size">Sizes : <span class="size-hdv">S , M , L , XL , XXL</span></div>
+                            </div>
+                        </div>
 
+                        <div class="box-down">
+                            <div class="h-bg">
+                                <div class="h-bg-inner"></div>
+                            </div>
+
+                            <a class="cart-hdv" href="product.php">
+                                <span class="price-hdv">$120</span>
+                                <span class="add-to-cart-hdv">
+                                    <span class="txt-hdv">Add in cart</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <div class="el-wrapper">
+                        <div class="box-up">
+                            <img class="img" src="images/detail/1.jpg" alt="">
+                            <div class="img-info">
+                                <div class="info-inner">
+                                    <span class="p-name">I feel like Pablo</span>
+                                </div>
+                                <div class="a-size">Sizes : <span class="size-hdv">S , M , L , XL , XXL</span></div>
+                            </div>
+                        </div>
 
+                        <div class="box-down">
+                            <div class="h-bg">
+                                <div class="h-bg-inner"></div>
+                            </div>
+
+                            <a class="cart-hdv" href="product.php">
+                                <span class="price-hdv">$120</span>
+                                <span class="add-to-cart-hdv">
+                                    <span class="txt-hdv">Add in cart</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <div class="el-wrapper">
+                        <div class="box-up">
+                            <img class="img" src="images/detail/1.jpg" alt="">
+                            <div class="img-info">
+                                <div class="info-inner">
+                                    <span class="p-name">I feel like Pablo</span>
+                                </div>
+                                <div class="a-size">Sizes : <span class="size-hdv">S , M , L , XL , XXL</span></div>
+                            </div>
+                        </div>
+
+                        <div class="box-down">
+                            <div class="h-bg">
+                                <div class="h-bg-inner"></div>
+                            </div>
+
+                            <a class="cart-hdv" href="product.php">
+                                <span class="price-hdv">$120</span>
+                                <span class="add-to-cart-hdv">
+                                    <span class="txt-hdv">Add in cart</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <div class="el-wrapper">
+                        <div class="box-up">
+                            <img class="img" src="images/detail/1.jpg" alt="">
+                            <div class="img-info">
+                                <div class="info-inner">
+                                    <span class="p-name">I feel like Pablo</span>
+                                </div>
+                                <div class="a-size">Sizes : <span class="size-hdv">S , M , L , XL , XXL</span></div>
+                            </div>
+                        </div>
+
+                        <div class="box-down">
+                            <div class="h-bg">
+                                <div class="h-bg-inner"></div>
+                            </div>
+
+                            <a class="cart-hdv" href="product.php">
+                                <span class="price-hdv">$120</span>
+                                <span class="add-to-cart-hdv">
+                                    <span class="txt-hdv">Add in cart</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dvh_qo mt-5">
+        <h1 class="text-center mb-4">CHILDREN</h1>
+		<div class="container">
+            <div class="row">
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <div class="el-wrapper">
+                        <div class="box-up">
+                            <img class="img" src="images/detail/1.jpg" alt="">
+                            <div class="img-info">
+                                <div class="info-inner">
+                                    <span class="p-name">I feel like Pablo</span>
+                                </div>
+                                <div class="a-size">Sizes : <span class="size-hdv">S , M , L , XL , XXL</span></div>
+                            </div>
+                        </div>
+
+                        <div class="box-down">
+                            <div class="h-bg">
+                                <div class="h-bg-inner"></div>
+                            </div>
+
+                            <a class="cart-hdv" href="product.php">
+                                <span class="price-hdv">$120</span>
+                                <span class="add-to-cart-hdv">
+                                    <span class="txt-hdv">Add in cart</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <div class="el-wrapper">
+                        <div class="box-up">
+                            <img class="img" src="images/detail/1.jpg" alt="">
+                            <div class="img-info">
+                                <div class="info-inner">
+                                    <span class="p-name">I feel like Pablo</span>
+                                </div>
+                                <div class="a-size">Sizes : <span class="size-hdv">S , M , L , XL , XXL</span></div>
+                            </div>
+                        </div>
+
+                        <div class="box-down">
+                            <div class="h-bg">
+                                <div class="h-bg-inner"></div>
+                            </div>
+
+                            <a class="cart-hdv" href="product.php">
+                                <span class="price-hdv">$120</span>
+                                <span class="add-to-cart-hdv">
+                                    <span class="txt-hdv">Add in cart</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <div class="el-wrapper">
+                        <div class="box-up">
+                            <img class="img" src="images/detail/1.jpg" alt="">
+                            <div class="img-info">
+                                <div class="info-inner">
+                                    <span class="p-name">I feel like Pablo</span>
+                                </div>
+                                <div class="a-size">Sizes : <span class="size-hdv">S , M , L , XL , XXL</span></div>
+                            </div>
+                        </div>
+
+                        <div class="box-down">
+                            <div class="h-bg">
+                                <div class="h-bg-inner"></div>
+                            </div>
+
+                            <a class="cart-hdv" href="product.php">
+                                <span class="price-hdv">$120</span>
+                                <span class="add-to-cart-hdv">
+                                    <span class="txt-hdv">Add in cart</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <div class="el-wrapper">
+                        <div class="box-up">
+                            <img class="img" src="images/detail/1.jpg" alt="">
+                            <div class="img-info">
+                                <div class="info-inner">
+                                    <span class="p-name">I feel like Pablo</span>
+                                </div>
+                                <div class="a-size">Sizes : <span class="size-hdv">S , M , L , XL , XXL</span></div>
+                            </div>
+                        </div>
+
+                        <div class="box-down">
+                            <div class="h-bg">
+                                <div class="h-bg-inner"></div>
+                            </div>
+
+                            <a class="cart-hdv" href="product.php">
+                                <span class="price-hdv">$120</span>
+                                <span class="add-to-cart-hdv">
+                                    <span class="txt-hdv">Add in cart</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white mt-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Company Name</h5>
+                    <p class="text-muted">123 Main St.<br>Anytown, USA 12345</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Home</a></li>
+                        <li><a class="text-muted" href="#">About Us</a></li>
+                        <li><a class="text-muted" href="contact.php">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Subscribe to Our Newsletter</h5>
+                    <form action="#" method="post">
+                        <div class="input-group footer-submid mb-3">
+                            <input type="email" class="form-control" placeholder="Email Address"
+                                aria-label="Email Address" aria-describedby="button-addon2">
+                            <button class="btn btn-primary" type="submit" id="button-addon2">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12 text-center">
+                    <p class="text-muted">&copy; 2023 Company Name. All rights reserved.</p>
                 </div>
             </div>
         </div>
@@ -397,10 +559,8 @@
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
     <script src="assets/js/bootstrap.min.js"></script>
- 
     <script src="assets/slick/slick.min.js"></script>
     <script src="assets/js/script.js"></script>
+</body>
 
-    </body>
-
-    </html>
+</html>

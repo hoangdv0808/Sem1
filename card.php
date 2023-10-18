@@ -270,27 +270,35 @@
             </div>
         </div>
     </div>
-    <footer class="mt-5">
-        <div class="container">
+    <footer class="bg-dark text-white mt-5">
+        <div class="container py-5">
             <div class="row">
-                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                    <div class="logo mt-5">
-                        <a href=""><img src="images/logo/logo2.png" alt="" style="width:50px; "></a>
-                    </div>
-                    <div class="footer-text">
-                        <p style="color:#fff;">
-                        Sign up below for updates about the world of Burberry, including collection launches and early access to limited-edition products and collaborations.</p>
-                        <input type="email" name="email" id="">
-                    </div>
+                <div class="col-md-4">
+                    <h5>Company Name</h5>
+                    <p class="text-muted">123 Main St.<br>Anytown, USA 12345</p>
                 </div>
-                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                    
+                <div class="col-md-4">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Home</a></li>
+                        <li><a class="text-muted" href="#">About Us</a></li>
+                        <li><a class="text-muted" href="contact.php">Contact Us</a></li>
+                    </ul>
                 </div>
-                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-
+                <div class="col-md-4">
+                    <h5>Subscribe to Our Newsletter</h5>
+                    <form action="#" method="post">
+                        <div class="input-group footer-submid mb-3">
+                            <input type="email" class="form-control" placeholder="Email Address"
+                                aria-label="Email Address" aria-describedby="button-addon2">
+                            <button class="btn btn-primary" type="submit" id="button-addon2">Subscribe</button>
+                        </div>
+                    </form>
                 </div>
-                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12 text-center">
+                    <p class="text-muted">&copy; 2023 Company Name. All rights reserved.</p>
                 </div>
             </div>
         </div>

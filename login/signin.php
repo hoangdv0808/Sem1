@@ -72,16 +72,16 @@
                         <div class="text-center">
                             <div class="col-lg-12">
                                 <div class="login-txt">
-                                    <div class="form-group">
+                                    <div class="form-group login-dvh-rua">
                                         <label for="txt" class="required">Name </label>
                                         <input name="name" id="txt" type="text" placeholder="Name" required="">
                                     </div>
                                     <!-- <p>Mời bạn nhập tên</p> -->
-                                    <div class="form-group">
+                                    <div class="form-group login-dvh-rua">
                                         <label for="txt" class="required">Email </label>
                                         <input name="email" id="txt" type="email" placeholder="Your Email" required="">
                                     </div>
-                                    <div class="form-group pt-3">
+                                    <div class="form-group login-dvh-rua pt-3">
                                         <label for="txt" class="required mm">Password</label>
                                         <div class="d-flex">
                                             <input type="password" name="password" placeholder="Your password"
@@ -93,7 +93,7 @@
                                         </div>
 
                                     </div>
-                                    <div class="form-group pt-3">
+                                    <div class="form-group login-dvh-rua pt-3">
                                         <label for="txt" class="required mm">Confirm password</label>
                                         <div class="d-flex">
                                             <input type="password" name="password" placeholder="Your password"
