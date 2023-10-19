@@ -14,137 +14,273 @@
 
 <body>
     <header class="header-bg">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-10">
-                    <nav class="navbar navbar-expand-sm navbar-light">
-                        <a class="navbar-brand" href="#">
+        <div class="mt-4">
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-1">
+                        <a class="logo ml-5" href="#">
                             <img src="./images/logo/logo.png" alt="logo">
                         </a>
-                        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
-                            data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse header-menu navbar-collapse" id="collapsibleNavId">
-                            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                                <li class="nav-item active">
-                                    <a class="nav-link text-white fs-20" href="card.php">HOME <span
-                                            class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link text-white fs-20" href="../Detil.php" id="dropdownId"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MEN</a>
-                                    <div class="dropdown-menu m-w w-100" aria-labelledby="dropdownId">
-                                        <ul class="row">
-                                            <li class="dip-menu col-lg-3">
-                                                <a class="dropdown-item fs-20" href="#">Jackets</a>
-                                                <a class="dropdown-item" href="#">Jackets</a>
-                                                <a class="dropdown-item" href="#">Jackets</a>
-                                                <a class="dropdown-item" href="#">Jackets</a>
-                                                <a class="dropdown-item" href="#">Jackets</a>
-                                                <a class="dropdown-item" href="#">Jackets</a>
-                                                <a class="dropdown-item" href="#">Jackets</a>
-                                                <a class="dropdown-item" href="#">Jackets</a>
+                    </div>
+                    <div class="col-lg-5 position-static">
+                        <div class="row h-100">
 
-                                            </li>
-                                            <li class="dip-menu col-lg-3">
-                                                <a class="dropdown-item fs-20" href="#">Clothes</a>
-                                                <a class="dropdown-item" href="#">Clothes</a>
-                                                <a class="dropdown-item" href="#">Clothes</a>
-                                                <a class="dropdown-item" href="#">Clothes</a>
-                                                <a class="dropdown-item" href="#">Clothes</a>
-                                                <a class="dropdown-item" href="#">Clothes</a>
-                                                <a class="dropdown-item" href="#">Clothes</a>
-                                                <a class="dropdown-item" href="#">Clothes</a>
-                                            </li>
-                                            <li class="dip-menu col-lg-3">
-                                                <a class="dropdown-item fs-20" href="#">Bags</a>
-                                                <a class="dropdown-item" href="#">Bags</a>
-                                                <a class="dropdown-item" href="#">Bags</a>
-                                                <a class="dropdown-item" href="#">Bags</a>
-                                                <a class="dropdown-item" href="#">Bags</a>
-                                                <a class="dropdown-item" href="#">Bags</a>
-                                            </li>
-                                            <li class="dip-menu col-lg-3">
-                                                <a class="dropdown-item fs-20" href="#">Shoes</a>
-                                                <a class="dropdown-item" href="#">Shoes</a>
-                                                <a class="dropdown-item" href="#">Shoes</a>
-                                                <a class="dropdown-item" href="#">Shoes</a>
-                                                <a class="dropdown-item" href="#">Shoes</a>
-                                                <a class="dropdown-item" href="#">Shoes</a>
+                            <nav class="navbar-expand-sm navbar-light">
+                                <div class="collapse h-100 header-menu menu-main navbar-collapse" id="collapsibleNavId">
+                                    <ul class="navbar-nav h-100 mr-auto mt-2 mt-lg-0">
+                                        <li class="nav-item active">
+                                            <a class="nav-link text-white fs-20" href="index.php">HOME</a>
+                                        </li>
+                                        <li class="nav-item menu-dow">
+                                            <a class="nav-link text-white fs-20" href="product.php">MEN</a>
+                                            <div class="megamenu w-100">
+                                                <ul class="row">
+                                                    <li class="dip-menu ">
+                                                        <a class=" fs-20" href="#">Clothes</a>
+                                                        <a class="" href="#">View All</a>
+                                                        <a class="" href="#">Trench Coats</a>
+                                                        <a class="" href="#">Coats & Jackets</a>
+                                                        <a class="" href="#">Knitwear</a>
+                                                        <a class="" href="#">Puffer Jackets</a>
+                                                        <a class="" href="#">Blazerz & Tailoring</a>
+                                                        <a class="" href="#">Shirts</a>
+                                                        <a class="" href="#">Trousers & Shorts</a>
+                                                        <a class="" href="#">Denim</a>
+                                                        <a class="" href="#">Polos & T-shirts</a>
+                                                        <a class="" href="#">Hoodies & Sweatshirts</a>
+                                                        <a class="" href="#">Underwear</a>
+                                                        <a class="" href="#">Swimwear</a>
 
-                                            </li>
-                                            <li class="dip-menu col-lg-3">
-                                                <a class="dropdown-item fs-20" href="#">Jewellery</a>
-                                                <a class="dropdown-item" href="#">Jewellery</a>
-                                                <a class="dropdown-item" href="#">Jewellery</a>
-                                                <a class="dropdown-item" href="#">Jewellery</a>
-                                                <a class="dropdown-item" href="#">Jewellery</a>
+                                                    </li>
+                                                    <li class="dip-menu ">
+                                                        <a class=" fs-20" href="#">Bags</a>
+                                                        <a class="" href="#">View All</a>
+                                                        <a class="" href="#">Small</a>
+                                                        <a class="" href="#">Crossboby</a>
+                                                        <a class="" href="#">Belt</a>
+                                                        <a class="" href="#">Tote</a>
+                                                        <a class="" href="#">Holdalls</a>
+                                                        <a class="" href="#">Backpacks</a>
+                                                        <a class="" href="#">Briefcases</a>
+                                                        <a class="" href="#">Check</a>
+                                                    </li>
+                                                    <li class="dip-menu ">
+                                                        <a class=" fs-20" href="#">Shoes</a>
+                                                        <a class="" href="#">View All</a>
+                                                        <a class="" href="#">Loafers & Lace-ups</a>
+                                                        <a class="" href="#">Boots</a>
+                                                        <a class="" href="#">Sneakers</a>
+                                                        <a class="" href="#">Sandals</a>
+                                                    </li>
+                                                    <li class="dip-menu ">
+                                                        <a class=" fs-20" href="#">Accessories</a>
+                                                        <a class="" href="#">View All</a>
+                                                        <a class="" href="#">Sarves</a>
+                                                        <a class="" href="#">Wallets & Card Cases</a>
+                                                        <a class="" href="#">Pouches</a>
+                                                        <a class="" href="#">Keyrings</a>
+                                                        <a class="" href="#">Hats & Travel</a>
+                                                        <a class="" href="#">Sunglasses</a>
+                                                        <a class="" href="#">Ties & Cufflinks</a>
+                                                        <a class="" href="#">Belts</a>
+                                                        <a class="" href="#">Socks</a>
+                                                        <a class="" href="#">Tech & Travel</a>
+                                                        <a class="" href="#">Home</a>
+                                                        <a class="" href="#">Umbrellas</a>
+                                                        <a class="" href="#">Personalised Gifts</a>
 
-                                            </li>
-                                            <li class="dip-menu col-lg-3">
-                                                <a class="dropdown-item fs-20" href="#">Accessories</a>
-                                                <a class="dropdown-item" href="#">Accessories</a>
-                                                <a class="dropdown-item" href="#">Accessories</a>
-                                                <a class="dropdown-item" href="#">Accessories</a>
-                                                <a class="dropdown-item" href="#">Accessories</a>
+                                                    </li>
 
-                                            </li>
-                                            <li class="dip-menu ">
-                                                <a class="dropdown-item fs-20" href="#">Fragrance</a>
-                                                <a class="dropdown-item" href="#">Fragrance</a>
-                                                <a class="dropdown-item" href="#">Fragrance</a>
-                                                <a class="dropdown-item" href="#">Fragrance</a>
-                                                <a class="dropdown-item" href="#">Fragrance</a>
+                                                    <li class="dip-menu ">
+                                                        <a class=" fs-20" href="#">Jewellery</a>
+                                                        <a class="" href="#">View All</a>
+                                                    </li>
+                                                    <li class="dip-menu ">
+                                                        <a class=" fs-20" href="#">Gifts</a>
+                                                        <a class="" href="#">View All</a>
+                                                        <a class="" href="#">Personalised Scarves</a>
+                                                        <a class="" href="#">Personalised Gifts</a>
+                                                    </li>
 
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link text-white fs-20 " href="#" id="dropdownId"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">WOMEN</a>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownId">
-                                        <a class="dropdown-item" href="#">About</a>
-                                        <a class="dropdown-item" href="#">Contact</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link text-white fs-20" href="#" id="dropdownId" data-toggle="dropdown"
-                                        aria-haspopup="true" aria-expanded="false">CHILDREN</a>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownId">
-                                        <a class="dropdown-item" href="#">About</a>
-                                        <a class="dropdown-item" href="#">Contact</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white fs-20" href="detil.php">CONTACT</a>
-                                </li>
-                            </ul>
-                            <div class="search-container">
+                                                    <li class="dip-menu ">
+                                                        <a class=" fs-20" href="#">Fragrance</a>
+                                                        <a class="" href="#">View All</a>
+                                                        <a class="" href="#">Burberry Singnatures</a>
+                                                        <a class="" href="#">Burberry Hero</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item menu-dow">
+                                            <a class="nav-link text-white fs-20" href="product.php">WOMEN</a>
+                                            <div class="megamenu w-100">
+                                                <ul class="row">
+                                                    <li class="dip-menu col-lg-3">
+                                                        <a class=" fs-20" href="#">Jackets</a>
+                                                        <a class="" href="#">Jackets</a>
+                                                        <a class="" href="#">Jackets</a>
+                                                        <a class="" href="#">Jackets</a>
+                                                        <a class="" href="#">Jackets</a>
+                                                        <a class="" href="#">Jackets</a>
+                                                        <a class="" href="#">Jackets</a>
+                                                        <a class="" href="#">Jackets</a>
+
+                                                    </li>
+                                                    <li class="dip-menu col-lg-3">
+                                                        <a class=" fs-20" href="#">Clothes</a>
+                                                        <a class="" href="#">Clothes</a>
+                                                        <a class="" href="#">Clothes</a>
+                                                        <a class="" href="#">Clothes</a>
+                                                        <a class="" href="#">Clothes</a>
+                                                        <a class="" href="#">Clothes</a>
+                                                        <a class="" href="#">Clothes</a>
+                                                        <a class="" href="#">Clothes</a>
+                                                    </li>
+                                                    <li class="dip-menu col-lg-3">
+                                                        <a class=" fs-20" href="#">Bags</a>
+                                                        <a class="" href="#">Bags</a>
+                                                        <a class="" href="#">Bags</a>
+                                                        <a class="" href="#">Bags</a>
+                                                        <a class="" href="#">Bags</a>
+                                                        <a class="" href="#">Bags</a>
+                                                    </li>
+                                                    <li class="dip-menu col-lg-3">
+                                                        <a class=" fs-20" href="#">Shoes</a>
+                                                        <a class="" href="#">Shoes</a>
+                                                        <a class="" href="#">Shoes</a>
+                                                        <a class="" href="#">Shoes</a>
+                                                        <a class="" href="#">Shoes</a>
+                                                        <a class="" href="#">Shoes</a>
+
+                                                    </li>
+                                                    <li class="dip-menu col-lg-3">
+                                                        <a class=" fs-20" href="#">Jewellery</a>
+                                                        <a class="" href="#">Jewellery</a>
+                                                        <a class="" href="#">Jewellery</a>
+                                                        <a class="" href="#">Jewellery</a>
+                                                        <a class="" href="#">Jewellery</a>
+
+                                                    </li>
+                                                    <li class="dip-menu col-lg-3">
+                                                        <a class=" fs-20" href="#">Accessories</a>
+                                                        <a class="" href="#">Accessories</a>
+                                                        <a class="" href="#">Accessories</a>
+                                                        <a class="" href="#">Accessories</a>
+                                                        <a class="" href="#">Accessories</a>
+
+                                                    </li>
+                                                    <li class="dip-menu ">
+                                                        <a class=" fs-20" href="#">Fragrance</a>
+                                                        <a class="" href="#">Fragrance</a>
+                                                        <a class="" href="#">Fragrance</a>
+                                                        <a class="" href="#">Fragrance</a>
+                                                        <a class="" href="#">Fragrance</a>
+
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item menu-dow">
+                                            <a class="nav-link text-white fs-20" href="product.php">CHILDREN</a>
+                                            <div class="megamenu w-100">
+                                                <ul class="row">
+                                                    <li class="dip-menu col-lg-3">
+                                                        <a class=" fs-20" href="#">Jackets</a>
+                                                        <a class="" href="#">Jackets</a>
+                                                        <a class="" href="#">Jackets</a>
+                                                        <a class="" href="#">Jackets</a>
+                                                        <a class="" href="#">Jackets</a>
+                                                        <a class="" href="#">Jackets</a>
+                                                        <a class="" href="#">Jackets</a>
+                                                        <a class="" href="#">Jackets</a>
+
+                                                    </li>
+                                                    <li class="dip-menu col-lg-3">
+                                                        <a class=" fs-20" href="#">Clothes</a>
+                                                        <a class="" href="#">Clothes</a>
+                                                        <a class="" href="#">Clothes</a>
+                                                        <a class="" href="#">Clothes</a>
+                                                        <a class="" href="#">Clothes</a>
+                                                        <a class="" href="#">Clothes</a>
+                                                        <a class="" href="#">Clothes</a>
+                                                        <a class="" href="#">Clothes</a>
+                                                    </li>
+                                                    <li class="dip-menu col-lg-3">
+                                                        <a class=" fs-20" href="#">Bags</a>
+                                                        <a class="" href="#">Bags</a>
+                                                        <a class="" href="#">Bags</a>
+                                                        <a class="" href="#">Bags</a>
+                                                        <a class="" href="#">Bags</a>
+                                                        <a class="" href="#">Bags</a>
+                                                    </li>
+                                                    <li class="dip-menu col-lg-3">
+                                                        <a class=" fs-20" href="#">Shoes</a>
+                                                        <a class="" href="#">Shoes</a>
+                                                        <a class="" href="#">Shoes</a>
+                                                        <a class="" href="#">Shoes</a>
+                                                        <a class="" href="#">Shoes</a>
+                                                        <a class="" href="#">Shoes</a>
+
+                                                    </li>
+                                                    <li class="dip-menu col-lg-3">
+                                                        <a class=" fs-20" href="#">Jewellery</a>
+                                                        <a class="" href="#">Jewellery</a>
+                                                        <a class="" href="#">Jewellery</a>
+                                                        <a class="" href="#">Jewellery</a>
+                                                        <a class="" href="#">Jewellery</a>
+
+                                                    </li>
+                                                    <li class="dip-menu col-lg-3">
+                                                        <a class=" fs-20" href="#">Accessories</a>
+                                                        <a class="" href="#">Accessories</a>
+                                                        <a class="" href="#">Accessories</a>
+                                                        <a class="" href="#">Accessories</a>
+                                                        <a class="" href="#">Accessories</a>
+
+                                                    </li>
+                                                    <li class="dip-menu ">
+                                                        <a class=" fs-20" href="#">Fragrance</a>
+                                                        <a class="" href="#">Fragrance</a>
+                                                        <a class="" href="#">Fragrance</a>
+                                                        <a class="" href="#">Fragrance</a>
+                                                        <a class="" href="#">Fragrance</a>
+
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                </div>
+
+                            </nav>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="row justify-content-end">
+                            <div class="mr-5 search-container">
                                 <i class="fa fa-search"></i>
                                 <input class="search-input" type="text" placeholder="Search......">
                                 <i class="fa fa-times"></i>
                             </div>
-                        </div>
-                    </nav>
-                </div>
-                <div class="col-lg-2">
-                    <div class="row">
-                        <div class="">
-                            <div class="mt-22 cart">
-                                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-                            </div>
-                        </div>
-                        <div class="pd-0">
-                            <div class="login mt-22">
-                                <span class=" ">
-                                    <p><a href="login/signin.php">Sign up</a> | <a href="login/login.php">Log in</a></p>
-                                </span>
+                            <div class="row ">
+                                <div class=" mb-4 mt-2 cart">
+                                    <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                                <div class=" mb-4 mt-2 pd-0">
+                                    <div class="login ">
+                                        <span class=" ">
+                                            <p><a href="login/signin.php">Sign up</a> | <a href="login/login.php">Log
+                                                    in</a></p>
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-1"></div>
                 </div>
             </div>
         </div>
@@ -307,205 +443,6 @@
                             <li>Made in Portugal</li>
                             <li>Item 80726661</li>
                         </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="comment pb-5">
-        <div class="container mt-5">
-            <div class="d-flex comment-bd row">
-                <div class="d-flex flex-column col-lg-12">
-                    <div class="coment-bottom bg-white p-2 px-4">
-                        <div class="d-flex flex-row add-comment-section mt-4 mb-4">
-                            <img class="img-fluid img-responsive rounded-circle mr-2"
-                                src="images/detail/avatar/avatar.jpg" width="38px" />
-                            <input type="text" class="form-control mr-3" placeholder="Add comment" />
-                            <button className="btn btn-primary" type="button">Comment</button>
-                        </div>
-                        <div class="commented-section mt-2">
-                            <div class="d-flex flex-row align-items-center commented-user">
-                                <img class="img-fluid img-responsive rounded-circle mr-2 mb-5"
-                                    src="images/detail/avatar/avatar.jpg" />
-                                <div class="time_comment">
-                                    <h5 class="name">Corey oates</h5>
-                                    <span>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </span>
-                                    <div class="time_comment_n">
-                                        <p>
-                                            2023-06-12 10:38
-                                        </p>
-                                    </div>
-                                    <div class="comment-text-sm">
-                                        <div style="margin-top: -11px;">
-                                            <span class="XgpZlY">Product quality: </span>
-                                            Nice shirt, wide form, nice to wear, you can rest assured to buy it, the
-                                            fabric
-                                            is light but not hot, worth the money
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="commented-section mt-2">
-                            <div class="d-flex flex-row align-items-center commented-user">
-                                <img class="img-fluid img-responsive rounded-circle mr-2 mb-5"
-                                    src="images/detail/avatar/avatar.jpg" />
-                                <div class="time_comment">
-                                    <h5 class="name">Corey oates</h5>
-                                    <span>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </span>
-                                    <div class="time_comment_n">
-                                        <p>
-                                            2023-06-12 10:38
-                                        </p>
-                                    </div>
-                                    <div class="comment-text-sm">
-                                        <div style="margin-top: -11px;">
-                                            <span class="XgpZlY">Product quality: </span>
-                                            Very nice shirt, everyone, it's 100% cotton. The seam is beautiful, the
-                                            collar
-                                            is not very wide, carefully packaged. In general, the shirt is excellent,
-                                            there
-                                            is nothing to criticize. Item arrived in 3 days. Everyone come to buy it,
-                                            nice
-                                            shirt, cheap price, fast delivery, convenient. Next time will support the
-                                            shop
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="commented-section mt-2">
-                            <div class="d-flex flex-row align-items-center commented-user">
-                                <img class="img-fluid img-responsive rounded-circle mr-2 mb-5"
-                                    src="images/detail/avatar/avatar.jpg" />
-                                <div class="time_comment">
-                                    <h5 class="name">Corey oates</h5>
-                                    <span>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </span>
-                                    <div class="time_comment_n">
-                                        <p>
-                                            2023-06-12 10:38
-                                        </p>
-                                    </div>
-                                    <div class="comment-text-sm">
-                                        <div style="margin-top: -11px;">
-                                            <span class="XgpZlY">Product quality: </span>
-                                            Nice shirt, fast delivery, the minus point is that the white shirt is light,
-                                            but
-                                            I can see the bra inside. Buy it, buy it in black
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="commented-section mt-2">
-                            <div class="d-flex flex-row align-items-center commented-user">
-                                <img class="img-fluid img-responsive rounded-circle mr-2 mb-5"
-                                    src="images/detail/avatar/avatar.jpg" />
-                                <div class="time_comment">
-                                    <h5 class="name">Corey oates</h5>
-                                    <span>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </span>
-                                    <div class="time_comment_n">
-                                        <p>
-                                            2023-06-12 10:38
-                                        </p>
-                                    </div>
-                                    <div class="comment-text-sm">
-                                        <div style="margin-top: -11px;">
-                                            <span class="XgpZlY">Product quality: </span>
-                                            All in all, 100 points
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="commented-section mt-2">
-                            <div class="d-flex flex-row align-items-center commented-user">
-                                <img class="img-fluid img-responsive rounded-circle mr-2 mb-5"
-                                    src="images/detail/avatar/avatar.jpg" />
-                                <div class="time_comment">
-                                    <h5 class="name">Corey oates</h5>
-                                    <span>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-regular fa-star"></i>
-                                        <i class="fa-regular fa-star"></i>
-                                    </span>
-                                    <div class="time_comment_n">
-                                        <p>
-                                            2023-06-12 10:38
-                                        </p>
-                                    </div>
-                                    <div class="comment-text-sm">
-                                        <div style="margin-top: -11px;">
-                                            <span class="XgpZlY">Product quality: </span>
-                                            It's ok but it's a bit long and wide so 3 stars is reasonable for the
-                                            delivery
-                                            not on time
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="commented-section mt-2">
-                            <div class="d-flex flex-row align-items-center commented-user">
-                                <img class="img-fluid img-responsive rounded-circle mr-2 mb-5"
-                                    src="images/detail/avatar/avatar.jpg" />
-                                <div class="time_comment">
-                                    <h5 class="name">Corey oates</h5>
-                                    <span>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-regular fa-star"></i>
-                                    </span>
-                                    <div class="time_comment_n">
-                                        <p>
-                                            2023-06-12 10:38
-                                        </p>
-                                    </div>
-                                    <div class="comment-text-sm">
-                                        <div style="margin-top: -11px;">
-                                            <span class="XgpZlY">Product quality: </span>
-                                            I'm 43 kg, 1m56 tall, but wearing a little bit wide, a little thin shirt,
-                                            nice
-                                            product, right in the picture ok
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
                     </div>
                 </div>
             </div>

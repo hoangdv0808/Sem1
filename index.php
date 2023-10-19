@@ -14,136 +14,273 @@
 
 <body>
     <header class="header-bg">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-10">
-                    <nav class="navbar navbar-expand-sm navbar-light">
-                        <a class="navbar-brand" href="#">
+        <div class="mt-4">
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-1">
+                        <a class="logo ml-5" href="#">
                             <img src="./images/logo/logo.png" alt="logo">
                         </a>
-                        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
-                            data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse header-menu navbar-collapse" id="collapsibleNavId">
-                            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                                <li class="nav-item active">
-                                    <a class="nav-link text-white fs-20" href="index.php">HOME <span
-                                            class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link text-white fs-20" href="product.php">MEN</a>
-                                    <div class="dropdown-menu m-w w-100" aria-labelledby="dropdownId">
-                                        <ul class="row">
-                                            <li class="dip-menu col-lg-3">
-                                                <a class="dropdown-item fs-20" href="#">Jackets</a>
-                                                <a class="dropdown-item" href="#">Jackets</a>
-                                                <a class="dropdown-item" href="#">Jackets</a>
-                                                <a class="dropdown-item" href="#">Jackets</a>
-                                                <a class="dropdown-item" href="#">Jackets</a>
-                                                <a class="dropdown-item" href="#">Jackets</a>
-                                                <a class="dropdown-item" href="#">Jackets</a>
-                                                <a class="dropdown-item" href="#">Jackets</a>
+                    </div>
+                    <div class="col-lg-5 position-static">
+                        <div class="row h-100">
 
-                                            </li>
-                                            <li class="dip-menu col-lg-3">
-                                                <a class="dropdown-item fs-20" href="#">Clothes</a>
-                                                <a class="dropdown-item" href="#">Clothes</a>
-                                                <a class="dropdown-item" href="#">Clothes</a>
-                                                <a class="dropdown-item" href="#">Clothes</a>
-                                                <a class="dropdown-item" href="#">Clothes</a>
-                                                <a class="dropdown-item" href="#">Clothes</a>
-                                                <a class="dropdown-item" href="#">Clothes</a>
-                                                <a class="dropdown-item" href="#">Clothes</a>
-                                            </li>
-                                            <li class="dip-menu col-lg-3">
-                                                <a class="dropdown-item fs-20" href="#">Bags</a>
-                                                <a class="dropdown-item" href="#">Bags</a>
-                                                <a class="dropdown-item" href="#">Bags</a>
-                                                <a class="dropdown-item" href="#">Bags</a>
-                                                <a class="dropdown-item" href="#">Bags</a>
-                                                <a class="dropdown-item" href="#">Bags</a>
-                                            </li>
-                                            <li class="dip-menu col-lg-3">
-                                                <a class="dropdown-item fs-20" href="#">Shoes</a>
-                                                <a class="dropdown-item" href="#">Shoes</a>
-                                                <a class="dropdown-item" href="#">Shoes</a>
-                                                <a class="dropdown-item" href="#">Shoes</a>
-                                                <a class="dropdown-item" href="#">Shoes</a>
-                                                <a class="dropdown-item" href="#">Shoes</a>
+                            <nav class="navbar-expand-sm navbar-light">
+                                <div class="collapse h-100 header-menu menu-main navbar-collapse" id="collapsibleNavId">
+                                    <ul class="navbar-nav h-100 mr-auto mt-2 mt-lg-0">
+                                        <li class="nav-item active">
+                                            <a class="nav-link text-white fs-20" href="index.php">HOME</a>
+                                        </li>
+                                        <li class="nav-item menu-dow">
+                                            <a class="nav-link text-white fs-20" href="product.php">MEN</a>
+                                            <div class="megamenu w-100">
+                                                <ul class="row">
+                                                    <li class="dip-menu ">
+                                                        <a class=" fs-20" href="#">Clothes</a>
+                                                        <a class="" href="#">View All</a>
+                                                        <a class="" href="#">Trench Coats</a>
+                                                        <a class="" href="#">Coats & Jackets</a>
+                                                        <a class="" href="#">Knitwear</a>
+                                                        <a class="" href="#">Puffer Jackets</a>
+                                                        <a class="" href="#">Blazerz & Tailoring</a>
+                                                        <a class="" href="#">Shirts</a>
+                                                        <a class="" href="#">Trousers & Shorts</a>
+                                                        <a class="" href="#">Denim</a>
+                                                        <a class="" href="#">Polos & T-shirts</a>
+                                                        <a class="" href="#">Hoodies & Sweatshirts</a>
+                                                        <a class="" href="#">Underwear</a>
+                                                        <a class="" href="#">Swimwear</a>
 
-                                            </li>
-                                            <li class="dip-menu col-lg-3">
-                                                <a class="dropdown-item fs-20" href="#">Jewellery</a>
-                                                <a class="dropdown-item" href="#">Jewellery</a>
-                                                <a class="dropdown-item" href="#">Jewellery</a>
-                                                <a class="dropdown-item" href="#">Jewellery</a>
-                                                <a class="dropdown-item" href="#">Jewellery</a>
+                                                    </li>
+                                                    <li class="dip-menu ">
+                                                        <a class=" fs-20" href="#">Bags</a>
+                                                        <a class="" href="#">View All</a>
+                                                        <a class="" href="#">Small</a>
+                                                        <a class="" href="#">Crossboby</a>
+                                                        <a class="" href="#">Belt</a>
+                                                        <a class="" href="#">Tote</a>
+                                                        <a class="" href="#">Holdalls</a>
+                                                        <a class="" href="#">Backpacks</a>
+                                                        <a class="" href="#">Briefcases</a>
+                                                        <a class="" href="#">Check</a>
+                                                    </li>
+													<li class="dip-menu ">
+                                                        <a class=" fs-20" href="#">Shoes</a>
+                                                        <a class="" href="#">View All</a>
+                                                        <a class="" href="#">Loafers & Lace-ups</a>
+                                                        <a class="" href="#">Boots</a>
+                                                        <a class="" href="#">Sneakers</a>
+                                                        <a class="" href="#">Sandals</a>
+                                                    </li>
+													<li class="dip-menu ">
+                                                        <a class=" fs-20" href="#">Accessories</a>
+                                                        <a class="" href="#">View All</a>
+                                                        <a class="" href="#">Sarves</a>
+                                                        <a class="" href="#">Wallets & Card Cases</a>
+                                                        <a class="" href="#">Pouches</a>
+                                                        <a class="" href="#">Keyrings</a>
+                                                        <a class="" href="#">Hats & Travel</a>
+                                                        <a class="" href="#">Sunglasses</a>
+                                                        <a class="" href="#">Ties & Cufflinks</a>
+                                                        <a class="" href="#">Belts</a>
+                                                        <a class="" href="#">Socks</a>
+                                                        <a class="" href="#">Tech & Travel</a>
+                                                        <a class="" href="#">Home</a>
+                                                        <a class="" href="#">Umbrellas</a>
+                                                        <a class="" href="#">Personalised Gifts</a>
 
-                                            </li>
-                                            <li class="dip-menu col-lg-3">
-                                                <a class="dropdown-item fs-20" href="#">Accessories</a>
-                                                <a class="dropdown-item" href="#">Accessories</a>
-                                                <a class="dropdown-item" href="#">Accessories</a>
-                                                <a class="dropdown-item" href="#">Accessories</a>
-                                                <a class="dropdown-item" href="#">Accessories</a>
+                                                    </li>
+                                                    
+                                                    <li class="dip-menu ">
+                                                        <a class=" fs-20" href="#">Jewellery</a>
+                                                        <a class="" href="#">View All</a>
+                                                    </li>
+                                                    <li class="dip-menu ">
+                                                        <a class=" fs-20" href="#">Gifts</a>
+                                                        <a class="" href="#">View All</a>
+                                                        <a class="" href="#">Personalised Scarves</a>
+                                                        <a class="" href="#">Personalised Gifts</a>
+                                                    </li>
+                                                    
+                                                    <li class="dip-menu ">
+                                                        <a class=" fs-20" href="#">Fragrance</a>
+                                                        <a class="" href="#">View All</a>
+                                                        <a class="" href="#">Burberry Singnatures</a>
+                                                        <a class="" href="#">Burberry Hero</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item menu-dow">
+                                            <a class="nav-link text-white fs-20" href="product.php">WOMEN</a>
+                                            <div class="megamenu w-100">
+                                                <ul class="row">
+                                                    <li class="dip-menu col-lg-3">
+                                                        <a class=" fs-20" href="#">Jackets</a>
+                                                        <a class="" href="#">Jackets</a>
+                                                        <a class="" href="#">Jackets</a>
+                                                        <a class="" href="#">Jackets</a>
+                                                        <a class="" href="#">Jackets</a>
+                                                        <a class="" href="#">Jackets</a>
+                                                        <a class="" href="#">Jackets</a>
+                                                        <a class="" href="#">Jackets</a>
 
-                                            </li>
-                                            <li class="dip-menu ">
-                                                <a class="dropdown-item fs-20" href="#">Fragrance</a>
-                                                <a class="dropdown-item" href="#">Fragrance</a>
-                                                <a class="dropdown-item" href="#">Fragrance</a>
-                                                <a class="dropdown-item" href="#">Fragrance</a>
-                                                <a class="dropdown-item" href="#">Fragrance</a>
+                                                    </li>
+                                                    <li class="dip-menu col-lg-3">
+                                                        <a class=" fs-20" href="#">Clothes</a>
+                                                        <a class="" href="#">Clothes</a>
+                                                        <a class="" href="#">Clothes</a>
+                                                        <a class="" href="#">Clothes</a>
+                                                        <a class="" href="#">Clothes</a>
+                                                        <a class="" href="#">Clothes</a>
+                                                        <a class="" href="#">Clothes</a>
+                                                        <a class="" href="#">Clothes</a>
+                                                    </li>
+                                                    <li class="dip-menu col-lg-3">
+                                                        <a class=" fs-20" href="#">Bags</a>
+                                                        <a class="" href="#">Bags</a>
+                                                        <a class="" href="#">Bags</a>
+                                                        <a class="" href="#">Bags</a>
+                                                        <a class="" href="#">Bags</a>
+                                                        <a class="" href="#">Bags</a>
+                                                    </li>
+                                                    <li class="dip-menu col-lg-3">
+                                                        <a class=" fs-20" href="#">Shoes</a>
+                                                        <a class="" href="#">Shoes</a>
+                                                        <a class="" href="#">Shoes</a>
+                                                        <a class="" href="#">Shoes</a>
+                                                        <a class="" href="#">Shoes</a>
+                                                        <a class="" href="#">Shoes</a>
 
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link text-white fs-20 " href="product" id="dropdownId"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">WOMEN</a>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownId">
-                                        <a class="dropdown-item" href="#">About</a>
-                                        <a class="dropdown-item" href="#">Contact</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link text-white fs-20" href="product" id="dropdownId"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CHILDREN</a>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownId">
-                                        <a class="dropdown-item" href="#">About</a>
-                                        <a class="dropdown-item" href="#">Contact</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white fs-20" href="contact.php">CONTACT</a>
-                                </li>
-                            </ul>
-                            <div class="search-container">
+                                                    </li>
+                                                    <li class="dip-menu col-lg-3">
+                                                        <a class=" fs-20" href="#">Jewellery</a>
+                                                        <a class="" href="#">Jewellery</a>
+                                                        <a class="" href="#">Jewellery</a>
+                                                        <a class="" href="#">Jewellery</a>
+                                                        <a class="" href="#">Jewellery</a>
+
+                                                    </li>
+                                                    <li class="dip-menu col-lg-3">
+                                                        <a class=" fs-20" href="#">Accessories</a>
+                                                        <a class="" href="#">Accessories</a>
+                                                        <a class="" href="#">Accessories</a>
+                                                        <a class="" href="#">Accessories</a>
+                                                        <a class="" href="#">Accessories</a>
+
+                                                    </li>
+                                                    <li class="dip-menu ">
+                                                        <a class=" fs-20" href="#">Fragrance</a>
+                                                        <a class="" href="#">Fragrance</a>
+                                                        <a class="" href="#">Fragrance</a>
+                                                        <a class="" href="#">Fragrance</a>
+                                                        <a class="" href="#">Fragrance</a>
+
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item menu-dow">
+                                            <a class="nav-link text-white fs-20" href="product.php">CHILDREN</a>
+                                            <div class="megamenu w-100">
+                                                <ul class="row">
+                                                    <li class="dip-menu col-lg-3">
+                                                        <a class=" fs-20" href="#">Jackets</a>
+                                                        <a class="" href="#">Jackets</a>
+                                                        <a class="" href="#">Jackets</a>
+                                                        <a class="" href="#">Jackets</a>
+                                                        <a class="" href="#">Jackets</a>
+                                                        <a class="" href="#">Jackets</a>
+                                                        <a class="" href="#">Jackets</a>
+                                                        <a class="" href="#">Jackets</a>
+
+                                                    </li>
+                                                    <li class="dip-menu col-lg-3">
+                                                        <a class=" fs-20" href="#">Clothes</a>
+                                                        <a class="" href="#">Clothes</a>
+                                                        <a class="" href="#">Clothes</a>
+                                                        <a class="" href="#">Clothes</a>
+                                                        <a class="" href="#">Clothes</a>
+                                                        <a class="" href="#">Clothes</a>
+                                                        <a class="" href="#">Clothes</a>
+                                                        <a class="" href="#">Clothes</a>
+                                                    </li>
+                                                    <li class="dip-menu col-lg-3">
+                                                        <a class=" fs-20" href="#">Bags</a>
+                                                        <a class="" href="#">Bags</a>
+                                                        <a class="" href="#">Bags</a>
+                                                        <a class="" href="#">Bags</a>
+                                                        <a class="" href="#">Bags</a>
+                                                        <a class="" href="#">Bags</a>
+                                                    </li>
+                                                    <li class="dip-menu col-lg-3">
+                                                        <a class=" fs-20" href="#">Shoes</a>
+                                                        <a class="" href="#">Shoes</a>
+                                                        <a class="" href="#">Shoes</a>
+                                                        <a class="" href="#">Shoes</a>
+                                                        <a class="" href="#">Shoes</a>
+                                                        <a class="" href="#">Shoes</a>
+
+                                                    </li>
+                                                    <li class="dip-menu col-lg-3">
+                                                        <a class=" fs-20" href="#">Jewellery</a>
+                                                        <a class="" href="#">Jewellery</a>
+                                                        <a class="" href="#">Jewellery</a>
+                                                        <a class="" href="#">Jewellery</a>
+                                                        <a class="" href="#">Jewellery</a>
+
+                                                    </li>
+                                                    <li class="dip-menu col-lg-3">
+                                                        <a class=" fs-20" href="#">Accessories</a>
+                                                        <a class="" href="#">Accessories</a>
+                                                        <a class="" href="#">Accessories</a>
+                                                        <a class="" href="#">Accessories</a>
+                                                        <a class="" href="#">Accessories</a>
+
+                                                    </li>
+                                                    <li class="dip-menu ">
+                                                        <a class=" fs-20" href="#">Fragrance</a>
+                                                        <a class="" href="#">Fragrance</a>
+                                                        <a class="" href="#">Fragrance</a>
+                                                        <a class="" href="#">Fragrance</a>
+                                                        <a class="" href="#">Fragrance</a>
+
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                </div>
+
+                            </nav>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="row justify-content-end">
+                            <div class="mr-5 search-container">
                                 <i class="fa fa-search"></i>
                                 <input class="search-input" type="text" placeholder="Search......">
                                 <i class="fa fa-times"></i>
                             </div>
-                        </div>
-                    </nav>
-                </div>
-                <div class="col-lg-2">
-                    <div class="row">
-                        <div class="">
-                            <div class="mt-22 cart">
-                                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-                            </div>
-                        </div>
-                        <div class="pd-0">
-                            <div class="login mt-22">
-                                <span class=" ">
-                                    <p><a href="login/signin.php">Sign up</a> | <a href="login/login.php">Log in</a></p>
-                                </span>
+                            <div class="row ">
+                                <div class=" mb-4 mt-2 cart">
+                                    <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                                <div class=" mb-4 mt-2 pd-0">
+                                    <div class="login ">
+                                        <span class=" ">
+                                            <p><a href="login/signin.php">Sign up</a> | <a href="login/login.php">Log
+                                                    in</a></p>
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-1"></div>
                 </div>
             </div>
         </div>
@@ -182,7 +319,7 @@
     <div class="dvh_qo mt-5">
         <h1 class="text-center mb-4">MEN</h1>
 
-		<div class="container">
+        <div class="container">
             <div class="row">
                 <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
                     <div class="el-wrapper">
@@ -404,7 +541,7 @@
     </div>
     <div class="dvh_qo mt-5">
         <h1 class="text-center mb-4">CHILDREN</h1>
-		<div class="container">
+        <div class="container">
             <div class="row">
                 <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
                     <div class="el-wrapper">

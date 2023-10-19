@@ -33,15 +33,18 @@ b,
 strong {
 	color: #CFA44A;
 }
-
 .header-bg {
 	background-color: transparent;
 }
-
+.navbar{
+	padding: 0;
+}
 .sticky {
 	background-color: #000;
 }
-
+.pro-re{
+	position: relative;
+}
 .header-menu ul {
 	margin-left: 40px;
 }
@@ -53,15 +56,19 @@ strong {
 .header-menu ul li a:hover {
 	color: #CFA44A !important;
 }
-.sub-dvh-menu{
-	display: block;
-	visibility: hidden;
+.megamenu{
+	position: absolute;
+	background-color: #fff;
+	left: 0;
+	width: 100%;
+	top: 100%;
 	opacity: 0;
+	visibility: hidden;
 }
-.header-menu ul li:hover .sub-dvh-menu{
-	visibility: visible;
+.menu-main .menu-dow:hover  .megamenu{
 	opacity: 1;
-}
+	visibility: visible;
+	}
 .search-container {
 	width: 46px;
 	height: 46px;
@@ -140,6 +147,15 @@ i.fa-times {
 }
 .dip-menu{
 	list-style: none;
+	display: flex;
+	flex-direction: column;
+	padding: 15px 0;
+}
+.dip-menu a{
+	color: #000;
+}
+.dip-menu a:hover{
+	text-decoration: none
 }
 .login p,
 .login a {
