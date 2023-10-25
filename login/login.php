@@ -94,7 +94,7 @@
                                     </a>
                                 </div>
                                 <p class="account">Don't have an account?
-                                    <a href="signin.php" class="d-inline-block">Create an account</a>
+                                    <a href="register.php" class="d-inline-block">Create an account</a>
                                 </p>
                             </div>
                         </div>

@@ -1,23 +1,21 @@
 // Search
-const searchWrapper = document.querySelector(".search-container");
-const closeBtn= document.querySelector(".fa-times");
+jQuery(function ($) {
+  $(".search-container").click(function (e) {
+    e.preventDefault(),
+      $(this).toggleClass("active"),
+      $(".search").toggleClass("active").find(".search-input").focus()
+  })
 
-searchWrapper.addEventListener("click",() =>{
-    searchWrapper.classList.add("active");
-
-});
-closeBtn.addEventListener("click", (event) =>{
-    event.stopPropagation();
-    searchWrapper.classList.remove("active");
 });
 // navbar-menu
-window.addEventListener("scroll", function(){
+window.addEventListener("scroll", function () {
   var header = document.querySelector("header");
   header.classList.toggle("sticky", window.scrollY > 0);
 })
+
 // BACK TO TOP
 let mybutton = document.getElementById("myBtn");
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -37,53 +35,53 @@ const imgBtns = [...imgs];
 let imgId = 1;
 
 imgBtns.forEach((imgItem) => {
-    imgItem.addEventListener('click', (event) => {
-        event.preventDefault();
-        imgId = imgItem.dataset.id;
-        slideImage();
-    });
+  imgItem.addEventListener('click', (event) => {
+    event.preventDefault();
+    imgId = imgItem.dataset.id;
+    slideImage();
+  });
 });
 
-function slideImage(){
-    const displayWidth = document.querySelector('.img-showcase img:first-child').clientWidth;
+function slideImage() {
+  const displayWidth = document.querySelector('.img-showcase img:first-child').clientWidth;
 
-    document.querySelector('.img-showcase').style.transform = `translateX(${- (imgId - 1) * displayWidth}px)`;
+  document.querySelector('.img-showcase').style.transform = `translateX(${- (imgId - 1) * displayWidth}px)`;
 }
 
 window.addEventListener('resize', slideImage);
 // loading 
 var loader = document.getElementById("loading");
-window.addEventListener("load", function(){
-    loader.style.display = "none";
+window.addEventListener("load", function () {
+  loader.style.display = "none";
 
 })
 
 // eye password
-function myFunction(){
+function myFunction() {
   var x = document.getElementById("myInput");
   var z = document.getElementById("hide1");
   var y = document.getElementById("hide2");
 
-  if(x.type === 'password'){
+  if (x.type === 'password') {
     x.type = "text";
     y.style.display = "block";
     z.style.display = "none";
-  }else{
+  } else {
     x.type = "password";
     y.style.display = "none";
     z.style.display = "block";
   }
 }
-function myFunctions(){
+function myFunctions() {
   var x = document.getElementById("myInputs");
   var z = document.getElementById("hide3");
   var y = document.getElementById("hide4");
 
-  if(x.type === 'password'){
+  if (x.type === 'password') {
     x.type = "text";
     y.style.display = "block";
     z.style.display = "none";
-  }else{
+  } else {
     x.type = "password";
     y.style.display = "none";
     z.style.display = "block";
@@ -91,7 +89,7 @@ function myFunctions(){
 }
 // slick slider
 
-$(document).ready(function(){
+$(document).ready(function () {
   $('.slider-sl').slick({
     infinite: true,
     slidesToShow: 4,
@@ -103,4 +101,23 @@ $(document).ready(function(){
     centerMode: true,
     centerPadding: "10",
   });
+});
+
+//
+const decreaseBtn = document.querySelector('.decrease');
+const increaseBtn = document.querySelector('.increase');
+const quantityInput = document.querySelector('.quantity');
+
+// Xử lý sự kiện khi nhấn nút giảm
+decreaseBtn.addEventListener('click', function () {
+  let currentValue = parseInt(quantityInput.value);
+  if (currentValue > 1) {
+    quantityInput.value = currentValue - 1;
+  }
+});
+
+// Xử lý sự kiện khi nhấn nút tăng
+increaseBtn.addEventListener('click', function () {
+  let currentValue = parseInt(quantityInput.value);
+  quantityInput.value = currentValue + 1;
 });
